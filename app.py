@@ -1,7 +1,7 @@
 from flask import Flask, render_template, send_from_directory
 from os import path, walk
 
-import routes_list
+from routes_list import routes_list
 from config import Config
 
 app = Flask(__name__)
@@ -26,28 +26,13 @@ def get_static_files():
 					jsList.append(fulldir)
 	return cssList,jsList
 
-
-@app.route(f"/{app_prefix}/")
-def home_route():
-	route = "/"
-	cssList,jsList = get_static_files()
-	seo_data = {
-		"title": "Marketplace",
-		"description": "wholesale marketplace sapcozgut"
-	}
-
-	return render_template('index.html',
-		seo_data = seo_data,
-		cssList = cssList,
-		jsList = jsList,
-		logo_filename = Config.LOGO_IMAGE_FILENAME
-	)
-#@app.route("/")
-#@app.route("/<route>")
-#@app.route("/<route>/")
-@app.route(f"/{app_prefix}/<route>")
-@app.route(f"/{app_prefix}/<route>/")
-def route_configured(route):
+@app.route("/")
+@app.route("/<path>")
+@app.route("/<path>/")
+@app.route(f"/{app_prefix}/<path>")
+@app.route(f"/{app_prefix}/<path>/")
+@app.route(f"/<path:path>")
+def route_configured(path="/"):
 	cssList,jsList = get_static_files()
 	seo_data = {
 		"title": "Marketplace",
@@ -55,7 +40,7 @@ def route_configured(route):
 	}
 
 	for r in routes_list:
-		if r["path"] == route:
+		if r["path"] == path:
 			seo_data["title"] = r["title"]
 			seo_data["description"] = r["description"]
 

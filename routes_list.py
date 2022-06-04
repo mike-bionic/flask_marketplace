@@ -1,5 +1,5 @@
 
-[
+routes_list = [
   {
     "path": "contact",
     "title": "Contact us",
