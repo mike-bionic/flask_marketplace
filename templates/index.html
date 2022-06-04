@@ -102,9 +102,9 @@
 			content="Web site created using create-react-app"
 		/>
 		{% for file in jsList %}
-		<script defer="defer" src="{{file}}"></script>
+		<script defer="defer" src="{{app_prefix}}{{file}}"></script>
 		{% endfor %} {% for file in cssList %}
-		<link href="{{file}}" rel="stylesheet" />
+		<link href="{{app_prefix}}{{file}}" rel="stylesheet" />
 		{% endfor %}
 	</head>
 	<body>
