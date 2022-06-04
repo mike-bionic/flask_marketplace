@@ -27,13 +27,32 @@ def get_static_files():
 	return cssList,jsList
 
 
+@app.route(f"{app_prefix}/")
+def home_route():
+	route = "/"
+	cssList,jsList = get_static_files()
+	seo_data = {
+		"title": "Marketplace",
+		"description": "wholesale marketplace sapcozgut"
+	}
+
+	for r in routes_list:
+		if r["path"] == route:
+			seo_data["title"] = r["title"]
+			seo_data["description"] = r["description"]
+
+	return render_template('index.html',
+		seo_data = seo_data,
+		cssList = cssList,
+		jsList = jsList,
+		logo_filename = Config.LOGO_IMAGE_FILENAME
+	)
 #@app.route("/")
 #@app.route("/<route>")
 #@app.route("/<route>/")
-@app.route(f"{app_prefix}/")
 @app.route(f"{app_prefix}/<route>")
 @app.route(f"{app_prefix}/<route>/")
-def route_configured(route):
+def route_configured(route="/"):
 	cssList,jsList = get_static_files()
 	seo_data = {
 		"title": "Marketplace",
