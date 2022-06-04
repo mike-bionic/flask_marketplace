@@ -27,9 +27,9 @@ def get_static_files():
 	return cssList,jsList
 
 
-@app.route("/")
-@app.route("/<route>")
-@app.route("/<route>/")
+#@app.route("/")
+#@app.route("/<route>")
+#@app.route("/<route>/")
 @app.route(f"{app_prefix}/")
 @app.route(f"{app_prefix}/<route>")
 @app.route(f"{app_prefix}/<route>/")
