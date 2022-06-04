@@ -4,7 +4,7 @@ from os import path, walk
 from routes_list import routes_list
 from config import Config
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path=f"{Config.APP_PREFIX}/static")
 app.config.from_object(Config)
 app_prefix = Config.APP_PREFIX
 
@@ -18,11 +18,11 @@ def get_static_files():
 			if ('.css' in f or '.js' in f) and not ('.json' in f or '.map' in f or '.chunk' in f or '.txt' in f):
 				if ('.css' in f):
 					filedir = root.split(basedir)[1]
-					fulldir = path.join(filedir, f)
+					fulldir = path.join(app_prefix, filedir, f)
 					cssList.append(fulldir)
 				if ('.js' in f):
 					filedir = root.split(basedir)[1]
-					fulldir = path.join(filedir, f)
+					fulldir = path.join(app_prefix, filedir, f)
 					jsList.append(fulldir)
 	return cssList,jsList
 
@@ -48,7 +48,8 @@ def route_configured(path="/"):
 		seo_data = seo_data,
 		cssList = cssList,
 		jsList = jsList,
-		logo_filename = Config.LOGO_IMAGE_FILENAME
+		logo_filename = Config.LOGO_IMAGE_FILENAME,
+		app_prefix = app_prefix,
 	)
 
 @app.route("/locales/<lang>/<filename>")
