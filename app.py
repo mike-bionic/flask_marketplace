@@ -8,8 +8,6 @@ app = Flask(__name__)
 app.config.from_object(Config)
 app_prefix = Config.APP_PREFIX
 
-
-
 def get_static_files():
 	basedir = path.abspath('.')
 	staticDir = path.join(basedir,'static')
@@ -50,7 +48,9 @@ def route_configured(route):
 	return render_template('index.html',
 		seo_data = seo_data,
 		cssList = cssList,
-		jsList = jsList)
+		jsList = jsList,
+		logo_filename = Config.LOGO_IMAGE_FILENAME
+	)
 
 @app.route("/locales/<lang>/<filename>")
 def get_locale_file(lang, filename):
@@ -61,4 +61,4 @@ app_port = int(Config.APP_PORT) if Config.APP_PORT else 5000
 app_host = Config.APP_HOST or "0.0.0.0"
 
 if __name__ == "__main__":
-	app.run(host=app_host, port=app_port, threaded=True
+	app.run(host=app_host, port=app_port, threaded=True)

@@ -1,6 +1,6 @@
 
-**/static/*.html
 **/static/
+
 
 **/__pycache__/
 **/venv/
