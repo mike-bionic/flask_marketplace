@@ -7,7 +7,7 @@
     "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming, React, Node, Express, Flask, Flutter, C#, WPF, Python, JavaScript, Golang, Go, Dart, HTML, CSS, SCSS",
     "url": "https://saphasap.com",
     "type": "website",
-    "img": "/static/images/og_sapcozgut.png"
+    "img": "/static/sc_images/og_sapcozgut.png"
   },
   
   {
@@ -17,7 +17,7 @@
     "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming, React, Node, Express, Flask, Flutter, C#, WPF, Python, JavaScript, Golang, Go, Dart, HTML, CSS, SCSS",
     "url": "https://saphasap.com",
     "type": "website",
-    "img": "/static/images/og_sapcozgut.png"
+    "img": "/static/sc_images/og_sapcozgut.png"
   },
   {
     "path": "sapcozgut",
@@ -26,7 +26,7 @@
     "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming, React, Node, Express, Flask, Flutter, C#, WPF, Python, JavaScript, Golang, Go, Dart, HTML, CSS, SCSS",
     "url": "https://saphasap.com/sapchozgut",
     "type": "organisation",
-    "img": "/static/images/og_sapcozgut.png"
+    "img": "/static/sc_images/og_sapcozgut.png"
   },
 
   {
@@ -36,7 +36,7 @@
     "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming, React, Node, Express, Flask, Flutter, C#, WPF, Python, JavaScript, Golang, Go, Dart, HTML, CSS, SCSS",
     "url": "https://saphasap.com/contact",
     "type": "contact",
-    "img": "/static/images/og_contact.png"
+    "img": "/static/sc_images/og_contact.png"
   },
 
   {
@@ -46,7 +46,7 @@
     "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming, React, Node, Express, Flask, Flutter, C#, WPF, Python, JavaScript, Golang, Go, Dart, HTML, CSS, SCSS",
     "url": "https://saphasap.com/akhasap",
     "type": "desktop program",
-    "img": "/static/images/og_akhasap.png"
+    "img": "/static/sc_images/og_akhasap.png"
   },
 
   {
@@ -56,7 +56,7 @@
     "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming, React, Node, Express, Flask, Flutter, C#, WPF, Python, JavaScript, Golang, Go, Dart, HTML, CSS, SCSS",
     "url": "https://saphasap.com/saphasap",
     "type": "desktop program",
-    "img": "/static/images/og_saphasap.png"
+    "img": "/static/sc_images/og_saphasap.png"
   },
 
   {
@@ -66,7 +66,7 @@
     "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming, React, Node, Express, Flask, Flutter, C#, WPF, Python, JavaScript, Golang, Go, Dart, HTML, CSS, SCSS",
     "url": "https://saphasap.com/sapsargyt",
     "type": "mobile application",
-    "img": "/static/images/og_sapsargyt.png"
+    "img": "/static/sc_images/og_sapsargyt.png"
   },
 
   {
@@ -76,7 +76,7 @@
     "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming, React, Node, Express, Flask, Flutter, C#, WPF, Python, JavaScript, Golang, Go, Dart, HTML, CSS, SCSS",
     "url": "https://saphasap.com/hilli",
     "type": "website",
-    "img": "/static/images/og_hilli.png"
+    "img": "/static/sc_images/og_hilli.png"
   },
 
   {
@@ -86,7 +86,7 @@
     "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming, React, Node, Express, Flask, Flutter, C#, WPF, Python, JavaScript, Golang, Go, Dart, HTML, CSS, SCSS",
     "url": "https://saphasap.com/ls",
     "type": "website",
-    "img": "/static/images/og_ls.png"
+    "img": "/static/sc_images/og_ls.png"
   },
 
   {
@@ -96,6 +96,253 @@
     "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming, React, Node, Express, Flask, Flutter, C#, WPF, Python, JavaScript, Golang, Go, Dart, HTML, CSS, SCSS",
     "url": "https://saphasap.com/service",
     "type": "service",
-    "img": "/static/images/og_service.png"
-  }
+    "img": "/static/sc_images/og_service.png"
+  },
+
+  {
+    "path": "login",
+    "title": "Login",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "register",
+    "title": "Register",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "reset-password",
+    "title": "Reset password",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "logout",
+    "title": "Logout",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "profile",
+    "title": "Profile",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "about",
+    "title": "About us",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "v-grid",
+    "title": "Products",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "product",
+    "title": "Product",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "wishlist",
+    "title": "Wishlist",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "profile-edit",
+    "title": "Edit profile",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "orders",
+    "title": "Orders",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "checkout",
+    "title": "Checkout",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "categories",
+    "title": "Categories",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "settings",
+    "title": "Settings",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "brands",
+    "title": "Brands",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "cart",
+    "title": "Cart",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "payment_and_delivery_info",
+    "title": "Payment and delivery info",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+
+
+  {
+    "path": "dashboard",
+    "title": "Dashboard",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "categories",
+    "title": "Categories",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "users",
+    "title": "Users",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "company",
+    "title": "Company",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "products",
+    "title": "Products",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "status",
+    "title": "Status",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "translations",
+    "title": "Translations",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "media",
+    "title": "Media",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "brand",
+    "title": "Brand",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+  {
+    "path": "ordersStream",
+    "title": "Orders stream",
+    "description": "Sap Çözgüt elektron sowdasy",
+    "keywords": "Sap Chozgut, Sap Hasap, Akhasap, Sap Sargyt, Hilli, Ls, Service, Ak Hasap, Lomay Sowda, Market, Sowda, biznes, buisness, techology, programming",
+    "url": "https://saphasap.com",
+    "type": "saphasap",
+    "img": "/static/sc_images/og_sapcozgut.png"
+  },
+
 ]
