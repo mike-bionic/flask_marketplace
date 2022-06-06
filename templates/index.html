@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<link
 			rel="shortcut icon"
-			href="{{ url_for('static', filename='{{logo_filename}}') }}"
+			href="{{ url_for('static', filename=logo_filename) }}"
 		/>
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<meta name="theme-color" content="#000000" />
@@ -104,16 +104,10 @@
 			name="description"
 			content="Web site created using create-react-app"
 		/>
-		{% for file in jsList %}
-		<script
-			defer="defer"
-			src="{{ url_for('static', filename='{{file}}') }}"
-		></script>
+		{% for file in jsList %} {{file}}
+		<script defer="defer" src="{{ url_for('static', filename=file) }}"></script>
 		{% endfor %} {% for file in cssList %}
-		<link
-			href="{{ url_for('static', filename='{{file}}') }}"
-			rel="stylesheet"
-		/>
+		<link href="{{ url_for('static', filename=file) }}" rel="stylesheet" />
 		{% endfor %}
 	</head>
 	<body>

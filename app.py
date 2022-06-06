@@ -1,3 +1,5 @@
+
+
 from flask import Flask, render_template, send_from_directory
 from os import path, walk
 
@@ -7,12 +9,11 @@ from config import Config
 app = Flask(__name__, static_url_path=Config.STATIC_URL_PATH)
 app.config.from_object(Config)
 app.static_folder = Config.STATIC_FOLDER_LOCATION
-app.template_folder = Config.TEMPLATE_FOLDER_LOCATION
 app_prefix = Config.APP_PREFIX
 
 def get_static_files():
 	basedir = path.abspath('.')
-	staticDir = path.join(basedir,Config.STATIC_FOLDER_NAME)
+	staticDir = Config.STATIC_FOLDER_LOCATION
 	cssList,jsList = [], []
 
 	for (root, dirs, file) in walk(staticDir):
@@ -21,11 +22,11 @@ def get_static_files():
 				if ('.css' in f):
 					filedir = root.split(basedir)[1]
 					fulldir = path.join(filedir, f)
-					cssList.append(fulldir)
+					cssList.append(path.join(filedir.split('/static/')[1], f))
 				if ('.js' in f):
 					filedir = root.split(basedir)[1]
 					fulldir = path.join(filedir, f)
-					jsList.append(fulldir)
+					jsList.append(path.join(filedir.split('/static/')[1], f))
 	return cssList,jsList
 
 @app.route("/")
