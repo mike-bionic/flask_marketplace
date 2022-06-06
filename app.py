@@ -4,7 +4,7 @@ from os import path, walk
 from routes_list import routes_list
 from config import Config
 
-app = Flask(__name__, static_url_path=f"{Config.STATIC_FOLDER_NAME}/static")
+app = Flask(__name__, static_url_path=f"{Config.APP_PREFIX}/static")
 print(app.static_url_path)
 app.config.from_object(Config)
 app_prefix = Config.APP_PREFIX
