@@ -17,7 +17,9 @@ class Config:
 	COMPANY_NAME = environ.get('COMPANY_NAME') or "Marketplace"
 	COMPANY_URL = environ.get('COMPANY_URL') or "https://saphasap.com"
 	APP_PREFIX = environ.get('APP_PREFIX') or ""
-	STATIC_FOLDER_NAME = environ.get('STATIC_FOLDER_NAME') or ""
+	STATIC_FOLDER_PATH = path.join(*json.loads(environ.get('STATIC_FOLDER_PATH'))) if environ.get('STATIC_FOLDER_PATH') else path.join('static')
+	STATIC_FOLDER_LOCATION = path.join(APP_BASEDIR, STATIC_FOLDER_PATH)
+	STATIC_URL_PATH = environ.get('STATIC_URL_PATH') if environ.get('STATIC_URL_PATH') else '/app/static'
 	
 
 	# basic app configs (required)

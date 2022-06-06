@@ -4,9 +4,10 @@ from os import path, walk
 from routes_list import routes_list
 from config import Config
 
-app = Flask(__name__, static_url_path=f"{Config.APP_PREFIX}/static")
-print(app.static_url_path)
+app = Flask(__name__, static_url_path=Config.STATIC_URL_PATH)
 app.config.from_object(Config)
+app.static_folder = Config.STATIC_FOLDER_LOCATION
+app.template_folder = Config.TEMPLATE_FOLDER_LOCATION
 app_prefix = Config.APP_PREFIX
 
 def get_static_files():
