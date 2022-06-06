@@ -4,14 +4,14 @@ from os import path, walk
 from routes_list import routes_list
 from config import Config
 
-app = Flask(__name__, static_url_path=f"{Config.APP_PREFIX}/static")
+app = Flask(__name__, static_url_path=f"{Config.STATIC_FOLDER_NAME}/static")
 print(app.static_url_path)
 app.config.from_object(Config)
 app_prefix = Config.APP_PREFIX
 
 def get_static_files():
 	basedir = path.abspath('.')
-	staticDir = path.join(basedir,'static')
+	staticDir = path.join(basedir,Config.STATIC_FOLDER_NAME)
 	cssList,jsList = [], []
 
 	for (root, dirs, file) in walk(staticDir):

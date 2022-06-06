@@ -17,6 +17,8 @@ class Config:
 	COMPANY_NAME = environ.get('COMPANY_NAME') or "Marketplace"
 	COMPANY_URL = environ.get('COMPANY_URL') or "https://saphasap.com"
 	APP_PREFIX = environ.get('APP_PREFIX') or ""
+	STATIC_FOLDER_NAME = environ.get('STATIC_FOLDER_NAME') or ""
+	
 
 	# basic app configs (required)
 	SECRET_KEY = environ.get('SECRET_KEY')
